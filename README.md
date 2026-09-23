@@ -7,7 +7,6 @@
 **Answer every inquiry in seconds. Qualify every lead the same fair way. Book the calendar. Chase every document. Update every borrower. Automatically.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Built for Votel.ai](https://img.shields.io/badge/Built%20for-Votel.ai-2563eb.svg)](docs/deployment-votel.md)
 [![Compliance First](https://img.shields.io/badge/Compliance-First-f59e0b.svg)](docs/compliance-guardrails.md)
 [![Agents](https://img.shields.io/badge/AI%20Agents-10-8b5cf6.svg)](agents/)
 [![Workflows](https://img.shields.io/badge/Workflows-9-06b6d4.svg)](workflows/)
