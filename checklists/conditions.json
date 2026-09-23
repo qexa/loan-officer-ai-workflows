@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "loe_general",
+      "name": "Letter of explanation",
+      "why": "The underwriter would like a short explanation of an item in your file.",
+      "where_to_find": "A few sentences in your own words; your LO can help."
+    },
+    {
+      "id": "loe_deposit",
+      "name": "Large deposit explanation and source",
+      "why": "Lenders must document where large deposits came from.",
+      "where_to_find": "Letter plus supporting document (e.g., transfer statement)."
+    },
+    {
+      "id": "gift_letter",
+      "name": "Signed gift letter",
+      "why": "Documents that gifted funds don't need to be repaid.",
+      "where_to_find": "Your LO will provide the form."
+    },
+    {
+      "id": "donor_statement",
+      "name": "Gift donor's bank statement or transfer proof",
+      "why": "Shows the gift funds' source.",
+      "where_to_find": "Donor's bank."
+    },
+    {
+      "id": "updated_paystub",
+      "name": "Updated paystub",
+      "why": "Keeps your income documentation current.",
+      "where_to_find": "Payroll portal."
+    },
+    {
+      "id": "updated_bank",
+      "name": "Updated bank statement",
+      "why": "Keeps your asset documentation current.",
+      "where_to_find": "Bank website."
+    },
+    {
+      "id": "payoff_statement",
+      "name": "Payoff statement for a debt",
+      "why": "Confirms a debt to be paid at or before closing.",
+      "where_to_find": "The creditor."
+    },
+    {
+      "id": "voe_contact",
+      "name": "HR contact for verification of employment",
+      "why": "The lender will confirm employment directly.",
+      "where_to_find": "Your HR department."
+    }
+  ]
+}

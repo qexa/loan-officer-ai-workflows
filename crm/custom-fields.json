@@ -1,0 +1,388 @@
+{
+  "$schema_version": "1.0",
+  "fields": [
+    {
+      "key": "lead_source",
+      "label": "Lead Source",
+      "type": "dropdown",
+      "group": "Lead",
+      "options": [
+        "Inbound Call",
+        "Web Form",
+        "Web Chat",
+        "Realtor Referral",
+        "Past Client Referral",
+        "Zillow",
+        "LendingTree",
+        "Paid Ads",
+        "Social",
+        "Other"
+      ]
+    },
+    {
+      "key": "referral_partner",
+      "label": "Referral Partner",
+      "type": "text",
+      "group": "Lead"
+    },
+    {
+      "key": "loan_purpose",
+      "label": "Loan Purpose",
+      "type": "dropdown",
+      "group": "Lead",
+      "options": [
+        "Purchase",
+        "Rate/Term Refinance",
+        "Cash-Out Refinance",
+        "HELOC",
+        "Other"
+      ]
+    },
+    {
+      "key": "occupancy",
+      "label": "Occupancy",
+      "type": "dropdown",
+      "group": "Lead",
+      "options": [
+        "Primary",
+        "Second Home",
+        "Investment"
+      ]
+    },
+    {
+      "key": "property_type",
+      "label": "Property Type",
+      "type": "dropdown",
+      "group": "Lead",
+      "options": [
+        "Single Family",
+        "Condo",
+        "Townhome",
+        "2-4 Unit",
+        "Manufactured",
+        "Unknown"
+      ]
+    },
+    {
+      "key": "property_state",
+      "label": "Property State",
+      "type": "text",
+      "group": "Lead"
+    },
+    {
+      "key": "property_county",
+      "label": "Property County",
+      "type": "text",
+      "group": "Lead"
+    },
+    {
+      "key": "buying_timeframe",
+      "label": "Buying Timeframe",
+      "type": "dropdown",
+      "group": "Timeline",
+      "options": [
+        "Under Contract",
+        "0-30 Days",
+        "30-90 Days",
+        "90+ Days",
+        "Just Curious",
+        "N/A (Refinance)"
+      ]
+    },
+    {
+      "key": "contract_date",
+      "label": "Contract Date",
+      "type": "date",
+      "group": "Timeline"
+    },
+    {
+      "key": "closing_date",
+      "label": "Closing Date",
+      "type": "date",
+      "group": "Timeline"
+    },
+    {
+      "key": "lock_expiration_date",
+      "label": "Rate Lock Expiration",
+      "type": "date",
+      "group": "Timeline"
+    },
+    {
+      "key": "credit_range_self_reported",
+      "label": "Credit (Self-Reported)",
+      "type": "dropdown",
+      "group": "Qualification",
+      "options": [
+        "Excellent",
+        "Good",
+        "Fair",
+        "Rebuilding",
+        "Declined to Answer"
+      ],
+      "description": "Self-reported range only; never verified by AI"
+    },
+    {
+      "key": "est_price_or_value",
+      "label": "Est. Price or Value",
+      "type": "number",
+      "group": "Qualification"
+    },
+    {
+      "key": "est_loan_balance",
+      "label": "Est. Current Loan Balance",
+      "type": "number",
+      "group": "Qualification"
+    },
+    {
+      "key": "down_payment_pct",
+      "label": "Down Payment %",
+      "type": "number",
+      "group": "Qualification"
+    },
+    {
+      "key": "refi_goal",
+      "label": "Refinance Goal",
+      "type": "dropdown",
+      "group": "Qualification",
+      "options": [
+        "Lower Payment",
+        "Shorter Term",
+        "Cash Out",
+        "Remove PMI",
+        "Other"
+      ]
+    },
+    {
+      "key": "income_type",
+      "label": "Income Type",
+      "type": "multiselect",
+      "group": "Qualification",
+      "options": [
+        "W-2",
+        "Self-Employed",
+        "1099/Commission",
+        "Retired",
+        "Other"
+      ]
+    },
+    {
+      "key": "va_eligible",
+      "label": "Military / VA Possible",
+      "type": "boolean",
+      "group": "Qualification"
+    },
+    {
+      "key": "first_time_buyer",
+      "label": "First-Time Buyer",
+      "type": "boolean",
+      "group": "Qualification"
+    },
+    {
+      "key": "has_agent",
+      "label": "Has Real Estate Agent",
+      "type": "boolean",
+      "group": "Qualification"
+    },
+    {
+      "key": "agent_name",
+      "label": "Agent Name",
+      "type": "text",
+      "group": "Qualification"
+    },
+    {
+      "key": "lead_score",
+      "label": "Lead Score",
+      "type": "dropdown",
+      "group": "Qualification",
+      "options": [
+        "Hot",
+        "Warm",
+        "Nurture",
+        "Refer-Out"
+      ]
+    },
+    {
+      "key": "appt_type",
+      "label": "Appointment Type",
+      "type": "dropdown",
+      "group": "Status",
+      "options": [
+        "Phone",
+        "Video"
+      ]
+    },
+    {
+      "key": "application_status",
+      "label": "Application Status",
+      "type": "dropdown",
+      "group": "Status",
+      "options": [
+        "Not Started",
+        "Started",
+        "Submitted"
+      ]
+    },
+    {
+      "key": "portal_link",
+      "label": "POS Portal Link",
+      "type": "url",
+      "group": "Status"
+    },
+    {
+      "key": "los_loan_number",
+      "label": "LOS Loan Number",
+      "type": "text",
+      "group": "Status"
+    },
+    {
+      "key": "stage_plain_language",
+      "label": "Stage (Plain Language)",
+      "type": "text",
+      "group": "Status",
+      "description": "Borrower-friendly status sentence set by stage automation"
+    },
+    {
+      "key": "lost_reason",
+      "label": "Lost Reason",
+      "type": "dropdown",
+      "group": "Status",
+      "options": [
+        "chose_other_lender",
+        "not_ready",
+        "not_qualified_now",
+        "property_fell_through",
+        "unresponsive",
+        "out_of_footprint",
+        "product_not_offered",
+        "other"
+      ]
+    },
+    {
+      "key": "docs_outstanding",
+      "label": "Docs Outstanding",
+      "type": "multiselect",
+      "group": "Docs",
+      "description": "Item IDs from checklists/*.json"
+    },
+    {
+      "key": "last_doc_request_date",
+      "label": "Last Doc Request",
+      "type": "date",
+      "group": "Docs"
+    },
+    {
+      "key": "doc_sla_status",
+      "label": "Doc SLA Status",
+      "type": "dropdown",
+      "group": "Docs",
+      "options": [
+        "On Track",
+        "At Risk",
+        "Overdue"
+      ]
+    },
+    {
+      "key": "sms_consent",
+      "label": "SMS Consent",
+      "type": "boolean",
+      "group": "Compliance"
+    },
+    {
+      "key": "sms_consent_timestamp",
+      "label": "SMS Consent Timestamp",
+      "type": "datetime",
+      "group": "Compliance"
+    },
+    {
+      "key": "voice_ai_consent",
+      "label": "AI Voice Consent",
+      "type": "boolean",
+      "group": "Compliance"
+    },
+    {
+      "key": "consent_source",
+      "label": "Consent Source",
+      "type": "text",
+      "group": "Compliance",
+      "description": "Form URL or call ID where consent was captured"
+    },
+    {
+      "key": "email_opt_in",
+      "label": "Marketing Email Opt-In",
+      "type": "boolean",
+      "group": "Compliance"
+    },
+    {
+      "key": "recording_disclosed",
+      "label": "Recording Disclosed",
+      "type": "boolean",
+      "group": "Compliance"
+    },
+    {
+      "key": "partner_updates_consent",
+      "label": "OK to Update Agents/Title",
+      "type": "boolean",
+      "group": "Compliance"
+    },
+    {
+      "key": "dnc_flag",
+      "label": "Do Not Contact",
+      "type": "boolean",
+      "group": "Compliance"
+    },
+    {
+      "key": "preferred_language",
+      "label": "Preferred Language",
+      "type": "dropdown",
+      "group": "Engagement",
+      "options": [
+        "English",
+        "Spanish",
+        "Other"
+      ]
+    },
+    {
+      "key": "last_contact_date",
+      "label": "Last Contact",
+      "type": "datetime",
+      "group": "Engagement"
+    },
+    {
+      "key": "next_action",
+      "label": "Next Action",
+      "type": "text",
+      "group": "Engagement"
+    },
+    {
+      "key": "next_action_date",
+      "label": "Next Action Date",
+      "type": "date",
+      "group": "Engagement"
+    },
+    {
+      "key": "assigned_lo",
+      "label": "Assigned LO",
+      "type": "user",
+      "group": "Engagement"
+    },
+    {
+      "key": "assigned_processor",
+      "label": "Assigned Processor",
+      "type": "user",
+      "group": "Engagement"
+    },
+    {
+      "key": "note_rate",
+      "label": "Note Rate (Internal)",
+      "type": "number",
+      "group": "Post-Close",
+      "description": "Internal only; used for LO rate-watch tasks; never sent to borrower"
+    },
+    {
+      "key": "funded_date",
+      "label": "Funded Date",
+      "type": "date",
+      "group": "Post-Close"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "applies_to": "all",
+  "items": [
+    {
+      "id": "photo_id",
+      "name": "Government-issued photo ID",
+      "why": "Confirms your identity.",
+      "where_to_find": "Driver's license or passport; front and back."
+    },
+    {
+      "id": "bank_statements_2mo",
+      "name": "2 most recent months of bank statements (all pages)",
+      "why": "Shows funds for down payment, closing costs, and reserves.",
+      "where_to_find": "Bank website or app under Statements; download PDF including blank pages."
+    },
+    {
+      "id": "insurance_agent",
+      "name": "Homeowners insurance agent contact",
+      "why": "Your lender needs insurance in place before closing.",
+      "where_to_find": "Name and phone of your agent is enough to start."
+    }
+  ]
+}

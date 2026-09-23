@@ -1,0 +1,21 @@
+{
+  "event": "conditions.updated",
+  "los_loan_number": "TEST-000123",
+  "conditions": [
+    {
+      "los_name": "LOE - Large Deposit 08/14",
+      "checklist_id": "loe_deposit",
+      "status": "open"
+    },
+    {
+      "los_name": "Updated Paystub",
+      "checklist_id": "updated_paystub",
+      "status": "open"
+    },
+    {
+      "los_name": "Gift Letter",
+      "checklist_id": "gift_letter",
+      "status": "cleared"
+    }
+  ]
+}

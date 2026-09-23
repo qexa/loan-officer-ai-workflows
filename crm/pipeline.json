@@ -1,0 +1,102 @@
+{
+  "pipeline": "Residential Loans",
+  "stages": [
+    {
+      "order": 1,
+      "id": "new_inquiry",
+      "name": "New Inquiry",
+      "stage_plain_language": "Your inquiry has been received."
+    },
+    {
+      "order": 2,
+      "id": "contacted",
+      "name": "Contacted",
+      "stage_plain_language": "We've connected and are gathering a few details."
+    },
+    {
+      "order": 3,
+      "id": "qualified_hot",
+      "name": "Qualified: Hot",
+      "stage_plain_language": "We're ready to set up your consultation."
+    },
+    {
+      "order": 4,
+      "id": "qualified_warm",
+      "name": "Qualified: Warm",
+      "stage_plain_language": "We're ready to set up your consultation."
+    },
+    {
+      "order": 5,
+      "id": "qualified_nurture",
+      "name": "Qualified: Nurture",
+      "stage_plain_language": "We'll stay in touch as you plan."
+    },
+    {
+      "order": 6,
+      "id": "consult_booked",
+      "name": "Consult Booked",
+      "stage_plain_language": "Your consultation is scheduled."
+    },
+    {
+      "order": 7,
+      "id": "consult_held",
+      "name": "Consult Held",
+      "stage_plain_language": "Your next step is completing the secure application."
+    },
+    {
+      "order": 8,
+      "id": "app_started",
+      "name": "Application Started",
+      "stage_plain_language": "Your application is in progress."
+    },
+    {
+      "order": 9,
+      "id": "app_submitted",
+      "name": "Application Submitted",
+      "stage_plain_language": "We've received your application and are reviewing it."
+    },
+    {
+      "order": 10,
+      "id": "processing_docs",
+      "name": "Processing: Docs Outstanding",
+      "stage_plain_language": "Your file is in processing, and we're gathering a few items."
+    },
+    {
+      "order": 11,
+      "id": "underwriting",
+      "name": "Submitted to Underwriting",
+      "stage_plain_language": "Your loan is with the underwriter for review."
+    },
+    {
+      "order": 12,
+      "id": "conditional_approval",
+      "name": "Conditional Approval",
+      "stage_plain_language": "Your file is moving forward, with a few final items to complete."
+    },
+    {
+      "order": 13,
+      "id": "clear_to_close",
+      "name": "Clear to Close",
+      "stage_plain_language": "You're clear to close!"
+    },
+    {
+      "order": 14,
+      "id": "closing_scheduled",
+      "name": "Closing Scheduled",
+      "stage_plain_language": "Your closing is scheduled."
+    },
+    {
+      "order": 15,
+      "id": "funded",
+      "name": "Funded / Closed Won",
+      "stage_plain_language": "Your loan has funded. Congratulations!"
+    },
+    {
+      "order": 16,
+      "id": "lost",
+      "name": "Lost / Withdrawn / Not Qualified",
+      "stage_plain_language": "Your file is currently inactive."
+    }
+  ],
+  "notes": "stage_plain_language is written to the contact field on stage entry and is the ONLY status text agents may share with borrowers."
+}

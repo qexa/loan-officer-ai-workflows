@@ -1,0 +1,30 @@
+{
+  "purchase": [
+    {
+      "id": "purchase_contract",
+      "name": "Fully signed purchase contract",
+      "why": "Confirms the price and terms of your home purchase.",
+      "where_to_find": "Your real estate agent can send it."
+    }
+  ],
+  "refinance": [
+    {
+      "id": "mortgage_statement",
+      "name": "Most recent mortgage statement",
+      "why": "Shows your current loan and payment.",
+      "where_to_find": "Your mortgage servicer's website."
+    },
+    {
+      "id": "insurance_dec_page",
+      "name": "Homeowners insurance declarations page",
+      "why": "Confirms your current coverage.",
+      "where_to_find": "Your insurance company's website or agent."
+    },
+    {
+      "id": "hoa_info",
+      "name": "HOA contact and dues (if applicable)",
+      "why": "Needed for properties with an HOA.",
+      "where_to_find": "HOA statement or management company."
+    }
+  ]
+}

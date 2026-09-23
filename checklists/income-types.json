@@ -1,0 +1,98 @@
+{
+  "w2": [
+    {
+      "id": "paystubs_30d",
+      "name": "Paystubs covering the most recent 30 days",
+      "why": "Shows your current income and how often you're paid.",
+      "where_to_find": "Employer payroll portal or HR."
+    },
+    {
+      "id": "w2s_2yr",
+      "name": "W-2s for the last 2 years",
+      "why": "Shows your income history.",
+      "where_to_find": "Payroll portal, HR, or tax preparer."
+    }
+  ],
+  "self_employed": [
+    {
+      "id": "personal_returns_2yr",
+      "name": "Personal federal tax returns, 2 years (all schedules)",
+      "why": "Shows your self-employment income history.",
+      "where_to_find": "Tax software account or tax preparer."
+    },
+    {
+      "id": "business_returns_2yr",
+      "name": "Business federal tax returns, 2 years (if applicable)",
+      "why": "Shows business income for partnerships or corporations.",
+      "where_to_find": "Tax preparer."
+    },
+    {
+      "id": "ytd_pl",
+      "name": "Year-to-date profit and loss statement",
+      "why": "Shows current-year business income.",
+      "where_to_find": "Your bookkeeping software or accountant."
+    },
+    {
+      "id": "business_bank_2mo",
+      "name": "2 months of business bank statements",
+      "why": "Supports business cash flow.",
+      "where_to_find": "Business bank website."
+    }
+  ],
+  "1099": [
+    {
+      "id": "1099s_2yr",
+      "name": "1099s for the last 2 years",
+      "why": "Shows contract or commission income.",
+      "where_to_find": "Payer or tax preparer."
+    },
+    {
+      "id": "personal_returns_2yr",
+      "name": "Personal federal tax returns, 2 years",
+      "why": "Confirms income after expenses.",
+      "where_to_find": "Tax software or preparer."
+    }
+  ],
+  "retired": [
+    {
+      "id": "award_letters",
+      "name": "Social Security and/or pension award letters",
+      "why": "Confirms your retirement income.",
+      "where_to_find": "SSA website or pension administrator."
+    },
+    {
+      "id": "retirement_statements",
+      "name": "Most recent retirement account statements",
+      "why": "Shows assets and any distributions.",
+      "where_to_find": "Account provider website."
+    }
+  ],
+  "rental": [
+    {
+      "id": "leases",
+      "name": "Current lease agreements",
+      "why": "Supports rental income.",
+      "where_to_find": "Your records or property manager."
+    },
+    {
+      "id": "schedule_e",
+      "name": "Tax returns with Schedule E, 2 years",
+      "why": "Shows rental income history.",
+      "where_to_find": "Tax preparer."
+    }
+  ],
+  "support": [
+    {
+      "id": "support_order",
+      "name": "Divorce decree or court order",
+      "why": "Documents alimony or child support terms.",
+      "where_to_find": "Your attorney or court records."
+    },
+    {
+      "id": "support_receipt",
+      "name": "Proof of receipt (recent months)",
+      "why": "Shows the support is being received.",
+      "where_to_find": "Bank statements showing deposits."
+    }
+  ]
+}

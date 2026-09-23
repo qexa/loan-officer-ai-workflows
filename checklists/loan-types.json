@@ -1,0 +1,27 @@
+{
+  "conventional": [],
+  "fha": [],
+  "usda": [],
+  "jumbo": [
+    {
+      "id": "reserves_statements",
+      "name": "Additional asset statements for reserves",
+      "why": "Jumbo loans often require more reserves.",
+      "where_to_find": "Investment or retirement account websites."
+    }
+  ],
+  "va": [
+    {
+      "id": "coe",
+      "name": "Certificate of Eligibility (COE)",
+      "why": "Confirms VA loan eligibility. {lo_name} can often request this for you.",
+      "where_to_find": "Ask your LO first."
+    },
+    {
+      "id": "dd214",
+      "name": "DD-214 (if requested)",
+      "why": "May be needed to confirm service.",
+      "where_to_find": "Your records or the National Archives."
+    }
+  ]
+}

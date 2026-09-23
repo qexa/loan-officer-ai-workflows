@@ -1,0 +1,79 @@
+{
+  "tags": [
+    {
+      "tag": "hot",
+      "applied_by": "A3",
+      "rule": "lead_score = Hot"
+    },
+    {
+      "tag": "warm",
+      "applied_by": "A3",
+      "rule": "lead_score = Warm"
+    },
+    {
+      "tag": "nurture",
+      "applied_by": "A3/A5/W3",
+      "rule": "lead_score = Nurture or moved to nurture"
+    },
+    {
+      "tag": "refer-out",
+      "applied_by": "A3",
+      "rule": "Out of footprint or product not offered"
+    },
+    {
+      "tag": "no-show",
+      "applied_by": "W3",
+      "rule": "Missed consult, recovery exhausted"
+    },
+    {
+      "tag": "app-stalled",
+      "applied_by": "W4",
+      "rule": "Application not submitted after W4 sequence"
+    },
+    {
+      "tag": "docs-outstanding",
+      "applied_by": "W5",
+      "rule": "docs_outstanding not empty (pre-underwriting)"
+    },
+    {
+      "tag": "conditions-open",
+      "applied_by": "W5",
+      "rule": "Underwriting conditions outstanding"
+    },
+    {
+      "tag": "closing-this-week",
+      "applied_by": "W7",
+      "rule": "closing_date within 7 days"
+    },
+    {
+      "tag": "realtor-partner",
+      "applied_by": "A1",
+      "rule": "Contact is a referral partner"
+    },
+    {
+      "tag": "past-client",
+      "applied_by": "W8",
+      "rule": "Loan funded"
+    },
+    {
+      "tag": "rate-watch",
+      "applied_by": "W8",
+      "rule": "Internal rate-watch threshold met (LO task only)"
+    },
+    {
+      "tag": "escalation",
+      "applied_by": "Any agent",
+      "rule": "Escalation trigger fired"
+    },
+    {
+      "tag": "vendor",
+      "applied_by": "A1",
+      "rule": "Vendor or sales call"
+    },
+    {
+      "tag": "do-not-contact",
+      "applied_by": "Any agent",
+      "rule": "Opt-out or DNC; blocks all outbound"
+    }
+  ]
+}
